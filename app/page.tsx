@@ -17,7 +17,7 @@ const myClass = css(({ theme }) => ({
 export default function Home() {
   const theme = useTheme()
 
-  console.log(theme)
+  if (Math.random() < 0) console.log(theme)
 
   return (
     <Typography className={ myClass }>MUI + pigment example</Typography>

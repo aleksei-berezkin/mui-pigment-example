@@ -12,6 +12,10 @@ const pigmentConfig = {
   transformLibraries: ['@mui/material'],
   theme: createTheme({
     cssVariables: true,
+    colorSchemes: {
+      light: {},
+      dark: {},
+    },
   }),
 };
 
